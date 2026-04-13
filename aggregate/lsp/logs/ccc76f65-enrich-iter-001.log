@@ -1,0 +1,40 @@
+[2026-04-13T20:18:44Z] === ENRICH ITERATION 1 START | repo=jhipster/prettier-java sha=ccc76f65 ===
+[2026-04-13T20:18:44Z] [iter=1] PHASE START: enrich repo=jhipster/prettier-java sha=ccc76f65 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/ccc76f65-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/ccc76f65f711ad5be7a7980077e1bfcb54d0571d.nq.gz
+[2026-04-13T20:18:51Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-04-13T20:18:57Z] [iter=1] AST store loaded triples=717643 load_secs=5 mem_mb=878 MB
+[2026-04-13T20:18:57Z] [iter=1] Step 2: Finding LSP targets mem_mb=878 MB
+[2026-04-13T20:18:58Z] [iter=1] LSP targets found call_sites=5144 imports=339 extends=264 implements=4 secs=1
+[2026-04-13T20:18:59Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=878 MB
+[2026-04-13T20:19:03Z] [iter=1] Position index built positions=48329 nodes_with_types=56837 secs=4 mem_mb=878 MB
+[2026-04-13T20:19:03Z] [iter=1] Step 3: Starting LSP resolution mem_mb=878 MB already_completed_types=[] already_completed_files=0
+[2026-04-13T20:19:03Z] [iter=1] Resolving target type target_type=call_site count=5144
+[2026-04-13T20:20:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.4 files_done=1 resolved=1 errors=229 current=packages/prettier-plugin-java/test/unit-test/text-blocks/text-block-spec.ts
+[2026-04-13T20:21:37Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.9 files_done=4 resolved=1 errors=567 current=packages/prettier-plugin-java/src/printers/printer-utils.ts
+[2026-04-13T20:22:33Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.8 files_done=6 resolved=6 errors=775 current=packages/prettier-plugin-java/src/printers/packages-and-modules.ts
+[2026-04-13T20:23:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.4 files_done=10 resolved=6 errors=901 current=packages/prettier-plugin-java/src/printers/types-values-and-variables.ts
+[2026-04-13T20:23:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.9 files_done=12 resolved=7 errors=1023 current=packages/prettier-plugin-java/src/printers/blocks-and-statements.ts
+[2026-04-13T20:24:32Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.8 files_done=13 resolved=7 errors=1219 current=packages/prettier-plugin-java/test/unit-test/return/return-spec.ts
+[2026-04-13T20:25:04Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.3 files_done=34 resolved=12 errors=1339 current=packages/prettier-plugin-java/test/unit-test/snippets/names/packageOrTypeName/test.spec.ts
+[2026-04-13T20:25:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.8 files_done=69 resolved=13 errors=1451 current=packages/prettier-plugin-java/test/unit-test/modules/modules-spec.ts
+[2026-04-13T20:27:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.9 files_done=84 resolved=14 errors=1911 current=packages/java-parser/src/tokens.js
+[2026-04-13T20:28:12Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=9.5 files_done=85 resolved=20 errors=2032 current=packages/java-parser/scripts/generate-signature.js
+[2026-04-13T20:29:37Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=10.9 files_done=87 resolved=24 errors=2349 current=packages/java-parser/test/test-block-spec.js
+[2026-04-13T20:31:11Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=12.4 files_done=89 resolved=24 errors=2698 current=packages/java-parser/src/productions/types-values-and-variables.js
+[2026-04-13T20:32:32Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=13.8 files_done=91 resolved=24 errors=3003 current=packages/java-parser/src/productions/packages-and-modules.js
+[2026-04-13T20:33:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=14.4 files_done=92 resolved=24 errors=3130 current=benchmark/java-parser/benchmark.js
+[2026-04-13T20:33:41Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=14.9 files_done=98 resolved=34 errors=3254 current=packages/java-parser/test/records/records-spec.js
+[2026-04-13T20:34:12Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=15.5 files_done=104 resolved=52 errors=3368 current=packages/java-parser/test/blocks-and-statements/switch-case-spec.js
+[2026-04-13T20:34:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=16.0 files_done=109 resolved=52 errors=3488 current=packages/java-parser/test/blocks-and-statements/yield-statement-spec.js
+[2026-04-13T20:35:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=16.6 files_done=124 resolved=66 errors=3574 current=packages/prettier-plugin-java/test/unit-test/if/_output.java
+[2026-04-13T20:35:55Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=17.2 files_done=128 resolved=90 errors=3682 current=packages/prettier-plugin-java/test/unit-test/lambda/_output.java
+[2026-04-13T20:36:25Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=17.7 files_done=188 resolved=351 errors=3754 current=packages/prettier-plugin-java/test/unit-test/constructors/_output.java
+[2026-04-13T20:36:26Z] [iter=1] Target type resolved target_type=call_site resolved=366 errors=3754 secs=1043 mem_mb=878 MB
+[2026-04-13T20:36:26Z] [iter=1] Resolving target type target_type=import_statement count=339
+[2026-04-13T20:36:37Z] [iter=1] Target type resolved target_type=import_statement resolved=132 errors=0 secs=11 mem_mb=878 MB
+[2026-04-13T20:36:37Z] [iter=1] Resolving target type target_type=extends_clause count=264
+[2026-04-13T20:36:48Z] [iter=1] Target type resolved target_type=extends_clause resolved=256 errors=0 secs=11 mem_mb=878 MB
+[2026-04-13T20:36:48Z] [iter=1] Resolving target type target_type=implements_clause count=4
+[2026-04-13T20:36:54Z] [iter=1] Target type resolved target_type=implements_clause resolved=0 errors=0 secs=6 mem_mb=878 MB
+[2026-04-13T20:37:10Z] [iter=1] Step 5: Writing final enrichment file triples=51538
+[2026-04-13T20:37:11Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/ccc76f65f711ad5be7a7980077e1bfcb54d0571d.nq.gz size_kb=1189
+[2026-04-13T20:37:11Z] [iter=1] PHASE END: enrich elapsed_s=1108 elapsed_min=18.5 total_triples=51538
